@@ -1,3 +1,5 @@
+# Find the Deployment of this App at Surge : tictacrajat.surge.sh
+
 # Nano React App Default Javascript Template
 
 The default template project for [nano-react-app](https://github.com/adrianmcli/nano-react-app).
@@ -24,7 +26,7 @@ parcel index.html -p 3000
 You can use CSS files with simple ES2015 `import` statements anywhere in your Javascript:
 
 ```js
-import "./index.css";
+import './index.css';
 ```
 
 ## Babel transforms
@@ -32,7 +34,6 @@ import "./index.css";
 The Babel preset [babel-preset-nano-react-app](https://github.com/nano-react-app/babel-preset-nano-react-app) is used to support the same transforms that Create React App supports.
 
 The Babel configuration lives inside `package.json` and will override an external `.babelrc` file, so if you want to use `.babelrc` remember to delete the `babel` property inside `package.json`.
-
 
 ## Deploy to GitHub Pages
 
